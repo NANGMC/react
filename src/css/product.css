@@ -1,0 +1,33 @@
+.pro-container {
+    display: flex;
+    color: red;
+    
+    animation: scrolls 10s linear infinite; 
+
+}
+
+.comm {
+    border: 2px solid black;
+    text-wrap: wrap;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    align-items: center;
+   
+}
+
+@keyframes scrolls {
+ from {
+    transform: translateX(100%);
+
+ }
+ to {
+    transform: translateX(-100%);
+ }
+}
+.pro-item {
+ display: flex;
+ margin: 0 10%;
+   
+}

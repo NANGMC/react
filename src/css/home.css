@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(55, 52, 52);
+    color: white
+}
+.inde {
+    margin-top: 5%;
+    text-align: center;
+    
+}
+.mcstore {
+    text-align: center;
+    background: linear-gradient(to right, hsl(175, 10%, 79%) 10%, hsl(180, 67%, 41%) 40%, hsl(0, 5%, 79%) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;You are 
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 700px;
+    }
+    80% {
+        background-position: 400px;
+    }
+    90% {
+        background-position: 300px;
+    }
+
+}

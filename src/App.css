@@ -1,0 +1,38 @@
+.con {
+  direction: rtl;
+}
+.login {
+  margin: 30px;
+  display: inline-block;
+}
+.register {
+  margin: 30px;
+  display: inline-block;
+}
+.login:hover {
+  cursor: pointer;
+  color: aqua;
+}
+.register:hover {
+  cursor: pointer;
+  color:aqua;
+}
+.home {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 10px 0 20px;
+}
+.shop {
+  display: inline-block;
+  cursor: pointer;
+}
+.container {
+  display: block;
+  direction: rtl;
+}
+.shop:hover {
+  color: aqua;
+}
+.home:hover {
+  color: aqua;
+}
